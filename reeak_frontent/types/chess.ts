@@ -14,6 +14,7 @@ export interface MoveHistoryItem {
   piece: RekPieceRole;
   player: Player;
   captured?: RekPieceRole;
+  captures?: RekPieceRole[];
 }
 
 export type GameState = 'active' | 'finished';
